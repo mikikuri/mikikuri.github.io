@@ -21,7 +21,7 @@ class SearchBoxShow {
 		this._searchBoxContainer.classList.add('showSearchBox');
 
 		// Focus
-		//this._searchBox.focus();
+		this._searchBox.focus();
 
 		this._searchBoxVisility = !this._searchBoxVisility;
 
