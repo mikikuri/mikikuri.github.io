@@ -201,8 +201,8 @@ class WebMenu {
 
 		this._webMenuVisibility = !this._webMenuVisibility;
 
-		// Focus to input field
-		this._webMenuSearchBox.focus();
+		// Focus to input field --DISABLED--
+		// this._webMenuSearchBox.focus();
 	}
 
 	// Hide web menu screen
