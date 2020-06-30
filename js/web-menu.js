@@ -72,11 +72,11 @@ class WebMenu {
 
 			const li = document.createElement('li');
 
-			// Generate web item/li child
+			// Generate web item/li child // added target=_blank to open in new tab
 			li.insertAdjacentHTML(
 				'afterbegin',
 				`
-				<a class='webMenuLink' href='${url}' tabindex='-1'>
+				<a class='webMenuLink' href='${url}' target='_blank' tabindex='-1'>
 					<div class='webItem' id='${'id' + site}'>
 						<div class='webItemContainer'>
 							<div class='webItemBody'>
