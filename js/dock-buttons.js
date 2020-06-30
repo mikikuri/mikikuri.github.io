@@ -57,10 +57,11 @@ class DockButtons {
 			const icon = this.dockSites[parseInt(i, 10)].icon;
 			const url = this.dockSites[parseInt(i, 10)].url;
 	
-			// Create a href
+			// Create a href - added target=_blank to open in new tab
 			const aDock = document.createElement('a');
 			aDock.className = 'dockLink';
 			aDock.href = url;
+			aDock.target = '_blank';
 			aDock.tabIndex = '-1';
 	
 			// Create div container
