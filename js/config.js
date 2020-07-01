@@ -223,6 +223,12 @@ class Config {
 				icon: 'disney',
 				url: 'https://www.disneyplus.com/series/the-simpsons/3ZoBZ52QHb4x',
 				category: 'media'
+			},
+			{
+				site: 'Github',
+				icon: 'github',
+				url: 'https://github.com/',
+				category: 'development'
 			}
 		];
 
