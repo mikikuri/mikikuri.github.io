@@ -197,7 +197,7 @@ class Config {
 			{
 				site: 'Jellyfin',
 				icon: 'jellyfin',
-				url: 'http://192.168.1.146:8096',
+				url: 'http://192.168.1.62:8096',
 				category: 'media'
 			},
 			{
@@ -210,6 +210,30 @@ class Config {
 				site: 'Download Station',
 				icon: 'download',
 				url: 'https://192.168.1.214/download/',
+				category: 'downloads'
+			},
+			{
+				site: 'Deezloader RMX',
+				icon: 'deezloader',
+				url: 'http://192.168.1.62:1730',
+				category: 'downloads'
+			},
+			{
+				site: 'Jackett',
+				icon: 'jackett',
+				url: 'http://192.168.1.62:9117/UI/Dashboard',
+				category: 'downloads'
+			},
+			{
+				site: 'qBitTorrent',
+				icon: 'qbittorrent',
+				url: 'http://192.168.1.62:8080',
+				category: 'downloads'
+			},
+			{
+				site: 'LANraragi',
+				icon: 'lanraragi',
+				url: 'http://192.168.1.62:3000',
 				category: 'downloads'
 			},
 			{
@@ -255,11 +279,6 @@ class Config {
 				url: 'https://otakumode.com/search?mode=shop&category=&keyword=&sort=new&page=1',
 			},
 			{
-				site: 'Messenger',
-				icon: 'messenger',
-				url: 'https://messenger.com/'
-			},
-			{
 				site: 'Google Keep',
 				icon: 'keep',
 				url: 'https://keep.google.com/u/1/',
@@ -270,14 +289,24 @@ class Config {
 				url: 'https://mail.google.com/mail/u/1/#inbox'
 			},
 			{
-				site: 'Youtube',
-				icon: 'youtube',
-				url: 'https://youtube.com/'
+				site: 'Deezloader',
+				icon: 'deezloader',
+				url: 'http://192.168.1.62:1730'
 			},
 			{
-				site: 'Youtube Music',
-				icon: 'ytm',
-				url: 'https://music.youtube.com/'
+				site: 'qBitTorrent',
+				icon: 'qbittorrent',
+				url: 'http://192.168.1.62:8080'
+			},
+			{
+				site: 'LANraragi',
+				icon: 'lanraragi',
+				url: 'http://192.168.1.62:3000'
+			},
+			{
+				site: 'Jellyfin',
+				icon: 'jellyfin',
+				url: 'http://192.168.1.62:8096'
 			},
 			{
 				site: 'Floatplane',
