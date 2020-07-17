@@ -197,7 +197,7 @@ class Config {
 			{
 				site: 'Jellyfin',
 				icon: 'jellyfin',
-				url: 'http://192.168.1.62:8096',
+				url: 'http://192.168.1.146:8096',
 				category: 'media'
 			},
 			{
@@ -215,25 +215,25 @@ class Config {
 			{
 				site: 'Deezloader RMX',
 				icon: 'deezloader',
-				url: 'http://192.168.1.62:1730',
+				url: 'http://192.168.1.146:1730',
 				category: 'downloads'
 			},
 			{
 				site: 'Jackett',
 				icon: 'jackett',
-				url: 'http://192.168.1.62:9117/UI/Dashboard',
+				url: 'http://192.168.1.146:9117/UI/Dashboard',
 				category: 'downloads'
 			},
 			{
 				site: 'qBitTorrent',
 				icon: 'qbittorrent',
-				url: 'http://192.168.1.62:8080',
+				url: 'http://192.168.1.146:8080',
 				category: 'downloads'
 			},
 			{
 				site: 'LANraragi',
 				icon: 'lanraragi',
-				url: 'http://192.168.1.62:3000',
+				url: 'http://192.168.1.146:3000',
 				category: 'downloads'
 			},
 			{
@@ -291,22 +291,22 @@ class Config {
 			{
 				site: 'Deezloader',
 				icon: 'deezloader',
-				url: 'http://192.168.1.62:1730'
+				url: 'http://192.168.1.146:1730'
 			},
 			{
 				site: 'qBitTorrent',
 				icon: 'qbittorrent',
-				url: 'http://192.168.1.62:8080'
+				url: 'http://192.168.1.146:8080'
 			},
 			{
 				site: 'LANraragi',
 				icon: 'lanraragi',
-				url: 'http://192.168.1.62:3000'
+				url: 'http://192.168.1.146:3000'
 			},
 			{
 				site: 'Jellyfin',
 				icon: 'jellyfin',
-				url: 'http://192.168.1.62:8096'
+				url: 'http://192.168.1.146:8096'
 			},
 			{
 				site: 'Floatplane',
