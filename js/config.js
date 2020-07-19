@@ -237,6 +237,12 @@ class Config {
 				category: 'downloads'
 			},
 			{
+				site: 'AdGuard',
+				icon: 'adguard',
+				url: 'http://192.168.1.146',
+				category: 'information'
+			},
+			{
 				site: 'Baka BT',
 				icon: 'bakabt',
 				url: 'https://www.bakabt.me/',
@@ -307,6 +313,11 @@ class Config {
 				site: 'Jellyfin',
 				icon: 'jellyfin',
 				url: 'http://192.168.1.146:8096'
+			},
+			{
+				site: 'AdGuard',
+				icon: 'adguard',
+				url: 'http://192.168.1.146',
 			},
 			{
 				site: 'Floatplane',
