@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # coding: utf-8
 
 import re
@@ -38,7 +38,7 @@ def check_channel_live_streaming(channel_id: str) -> bool:
         raise
 
 # usage: ./check_youtube.py youtube_channel_id
-if __name__ == "__main__":
+if __name__ == '__main__':
     
     parser = argparse.ArgumentParser(
         description='A tool to check if a channel currently has a live stream.',
